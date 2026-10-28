@@ -1,0 +1,25 @@
+
+# Environment variables — never upload secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Private uploaded resumes
+server/uploads/resumes/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
